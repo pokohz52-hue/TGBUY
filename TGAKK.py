@@ -3,7 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Вставьте сюда ваш токен от BotFather
-TOKEN = '8740637711:AAGifwkK5UE8B-y1nXHP-9XqOKRmMdl9E50'
+TOKEN = '8780814774:AAGIo1vtj6rCp_io8s5f-vUwsrpvrI3k19Y'
 # Вставьте сюда ваш числовой ID (чтобы бот знал, куда слать уведомления о покупке)
 ADMIN_ID = 8577851888 
 
