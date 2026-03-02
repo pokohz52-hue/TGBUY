@@ -55,7 +55,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         keyboard = [
             [InlineKeyboardButton("🇬🇧 Великобритания - 75 звёзд", callback_data='buy_UK')],
             [InlineKeyboardButton("🇩🇪 Германия - 100 звёзд", callback_data='buy_GER')],
-            [InlineKeyboardButton("🇮🇷 Иран - 40 звёзд", callback_data='buy_IRAN')],
+            [InlineKeyboardButton("🇮🇷 Иран - нет в наличии", callback_data='buy_IRAN')],
             [InlineKeyboardButton("🇻🇳 Вьетнам - 50 звёзд", callback_data='buy_VIET')], # Новая кнопка
             [InlineKeyboardButton("🇺🇸 США - Скоро...", callback_data='soon')],
             [InlineKeyboardButton("🔙 В меню", callback_data='main_menu')]
@@ -67,7 +67,6 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         country_map = {
             'buy_UK': 'Великобритания (75 звёзд)',
             'buy_GER': 'Германия (100 звёзд)',
-            'buy_IRAN': 'Иран (40 звёзд)',
             'buy_VIET': 'Вьетнам (50 звёзд)' # Добавлено в обработку
         }
         selected_country = country_map.get(data)
