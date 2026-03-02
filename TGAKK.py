@@ -55,7 +55,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         keyboard = [
             [InlineKeyboardButton("🇬🇧 Великобритания - 75 звёзд", callback_data='buy_UK')],
             [InlineKeyboardButton("🇩🇪 Германия - 100 звёзд", callback_data='buy_GER')],
-            [InlineKeyboardButton("🇮🇷 Иран - нет в наличии", callback_data='buy_IRAN')],
+            [InlineKeyboardButton("🇮🇷 Иран - нет в наличии", callback_data='soon')],
             [InlineKeyboardButton("🇻🇳 Вьетнам - 50 звёзд", callback_data='buy_VIET')], # Новая кнопка
             [InlineKeyboardButton("🇺🇸 США - Скоро...", callback_data='soon')],
             [InlineKeyboardButton("🔙 В меню", callback_data='main_menu')]
