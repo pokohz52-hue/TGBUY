@@ -9,7 +9,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.types import InlineKeyboardButton
 
 # --- НАСТРОЙКИ ---
-API_TOKEN = '8269166288:AAEjLKfyE7JcdY3nNSPs4gJHW5omTMYCw1A'
+API_TOKEN = '8690970009:AAH-TrR35SIkHPAwZmQ60WuoHAwo0F8pFss'
 ADMIN_ID = 8268348063 
 LOG_CHANNEL_ID = -1003664077943  # Твой новый ID канала для логов
 REF_REWARD = 0.02
